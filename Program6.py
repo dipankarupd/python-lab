@@ -7,6 +7,10 @@
 def main():
 
     sentence = input('Enter the sentnce: ')
-    my_set = {}
 
-    my_set = sentence.split()
+    mylist = sentence.split()
+    my_set = set(mylist)
+
+    print(sorted(my_set))
+
+main()
